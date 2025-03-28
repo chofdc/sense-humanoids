@@ -56,6 +56,7 @@ The walking scenario replays pre-recorded joint trajectories stored in the `moti
 - `.gitignore`, `LICENSE`, `README.md` – Standard project files
 
 ---
+<!--
 
 ## 📊 Reproducing the Results
 
@@ -87,6 +88,7 @@ If you use this work in your research, please cite:
 ```
 
 ---
+-->
 
 ## 🤝 License
 
