@@ -1,6 +1,6 @@
-# SENSE: Sensorless External Force Estimation for Humanoid Robots
+# SENSE: Sensorless External Force Estimation Framework for Humanoid Robots
 
-SENSE is a real-time, model-based framework for estimating external forces on humanoid robots without the need for force/torque (F/T) sensors. It leverages centroidal dynamics and angular momentum to provide accurate, low-cost estimation suitable for physical human-robot interaction (pHRI), particularly on platforms like NAO.
+SENSE is a real-time, model-based solution for estimating external forces on humanoid robots without the need for force/torque (F/T) sensors. It leverages centroidal dynamics and angular momentum to provide accurate, low-cost estimation suitable for physical human-robot interaction (pHRI), particularly on platforms like NAO.
 
 <p align="center">
   <img src="figures/force_estimation_periodic.png" width="700"/>
