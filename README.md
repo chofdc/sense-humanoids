@@ -80,7 +80,7 @@ python src/visualize_datapro.py
 If you use this work in your research, please cite:
 
 ```
-@article{chofdc2025sense,
+@article{fedsi2025sense,
   title={SENSE: Sensorless External force estimation using a model-based approach for humanoid robots},
   author={Chouaib Fedsi, Malik Mallem, and Mohamed Guiatni},
   journal={IEEE RO-MAN 2025},
