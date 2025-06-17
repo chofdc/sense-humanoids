@@ -49,9 +49,7 @@ The walking scenario replays pre-recorded joint trajectories stored in the `moti
 
 ## 📁 Project Structure
 
-- `src/` – Main codebase (observers, config, metrics, visualizer)
-- `motions/` – CSV files with walking trajectories
-- `figures/` – Figures from the paper
+- `src/` – Main codebase (walking motions, observers, config, metrics, visualizer)
 - `requirements.txt` – Python dependencies
 - `.gitignore`, `LICENSE`, `README.md` – Standard project files
 
