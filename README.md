@@ -81,7 +81,7 @@ If you use this work in your research, please cite:
 @inproceedings{fedsi2025sense,
   title={SENSE: A Force-Sensor-Free, Model-Based Framework for Estimating External Interaction Forces on Humanoid Robots},
   author={Fedsi, Chouaib and Mallem, Malik and Guiatni, Mohamed},
-  booktitle={2025 34th IEEE International Conference on Robot and Human Interactive Communication (ROMAN)},
+  booktitle={2025 34th IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)},
   pages={xx--xx},
   year={2025},
   organization={IEEE}
