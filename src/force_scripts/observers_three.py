@@ -1,3 +1,16 @@
+# ==============================================================================
+# SENSE: A Force-Sensor-Free, Model-Based Framework for Estimating External 
+#        Interaction Forces on Humanoid Robots
+#
+# Paper: IEEE RO-MAN 2025 (Regular Paper #507)
+# Authors: Chouaib Fedsi, et al.
+# Contact: chouaib.fedsi@univ-evry.fr
+# Repository: https://github.com/chofdc/sense-humanoids
+#
+# This file is part of the SENSE framework and distributed for academic use.
+# License: MIT (see LICENSE file)
+# ==============================================================================
+
 import numpy as np
 import random
 

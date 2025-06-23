@@ -1,3 +1,16 @@
+# ==============================================================================
+# SENSE: A Force-Sensor-Free, Model-Based Framework for Estimating External 
+#        Interaction Forces on Humanoid Robots
+#
+# Paper: IEEE RO-MAN 2025 (Regular Paper #507)
+# Authors: Chouaib Fedsi, et al.
+# Contact: chouaib.fedsi@univ-evry.fr
+# Repository: https://github.com/chofdc/sense-humanoids
+#
+# This file is part of the SENSE framework and distributed for academic use.
+# License: MIT (see LICENSE file)
+# ==============================================================================
+
 import numpy as np
 import pybullet as p
 import pybullet_data
@@ -249,12 +262,12 @@ def main():
                     "uncertainty": {k: v.tolist() for k, v in obs.uncertainty().items()}
                 })
 
-        # **Sleep uniquement si `dT > loop_time`**
+        # **Sleep only if `dT > loop_time`**
         elapsed_time = time.perf_counter() - start_time
         time_to_sleep = max(0, dT - elapsed_time)  # Avoid negative sleep times
         time.sleep(time_to_sleep)
 
-        #print(f"Temps d'échantillonnage : {time.perf_counter() - start_time:.6f} s")
+        #print(f"Sampling time : {time.perf_counter() - start_time:.6f} s")
         start_time = time.perf_counter()
         #time.sleep(dT)
         p.stepSimulation()
