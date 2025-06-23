@@ -11,7 +11,7 @@ SENSE is a real-time, model-based solution for estimating external forces on hum
 ## 🧠 Key Features
 
 - Model-based observer using centroidal dynamics and angular momentum
-- Real-time execution (<5ms per estimation step)
+- Real-time execution (<1ms per estimation step)
 - No external sensors required: only onboard IMU, FSR, and encoders
 - Comparative evaluation against LIP-based observers (Hawley, Stephens)
 - Supports static standing and dynamic walking scenarios
