@@ -77,6 +77,8 @@ python src/visualize_datapro.py
 
 If you use this work in your research, please cite:
 
+C. Fedsi, M. Mallem, and M. Guiatni, “Sense: A force-sensor-free, model-based framework for estimating external interaction forces on humanoid robots,” in 2025 34th IEEE International Conference
+on Robot and Human Interactive Communication (RO-MAN), IEEE, 2025, pp. xx–xx.
 ```
 @inproceedings{fedsi2025sense,
   title={SENSE: A Force-Sensor-Free, Model-Based Framework for Estimating External Interaction Forces on Humanoid Robots},
